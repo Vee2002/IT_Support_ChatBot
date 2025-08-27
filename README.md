@@ -1,6 +1,7 @@
 # IT_Support_ChatBot
 
 **Overview**
+
 This IT Support Chatbot is an intelligent assistant that helps users solve common problems with their laptops and phones.The bot first searches a curated knowledge base of IT Frequently Asked Questions using semantic similarity search powered by SentenceTransformers.If a relevant answer is not found in the knowledge base, the bot falls back to a Large Language Model to generate a helpful response.
 
 This hybrid approach ensures:

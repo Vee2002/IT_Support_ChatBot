@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repair Junction Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Repair Junction Chatbot</h2>
+  <div id="chat-box"></div>
+  <input type="text" id="messageInput" placeholder="Type your message..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    const chatBox = document.getElementById("chat-box");
+    const socket = new WebSocket("ws://localhost:8000/ws");
+
+    socket.onmessage = function (event) {
+      const data = JSON.parse(event.data);
+      if (data.type === "message") {
+        chatBox.innerHTML += `<p><strong>Bot:</strong> ${data.content}</p>`;
+      }
+    };
+
+    function sendMessage() {
+      const input = document.getElementById("messageInput");
+      const message = input.value.trim();
+      if (!message) return;
+      chatBox.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
+      socket.send(message);
+      input.value = "";
+    }
+  </script>
+</body>
+</html>

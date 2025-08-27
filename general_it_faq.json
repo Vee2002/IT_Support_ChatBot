@@ -1,0 +1,45 @@
+{
+    "questions_answers": 
+    [
+        {
+            "question": "How do I speed up my slow laptop?",
+            "answer": "You can speed up your laptop by uninstalling unused programs, disabling startup apps, cleaning temporary files, and upgrading RAM or switching to an SSD if possible."
+        },
+        {
+            "question": "My phone battery drains quickly, what should I do?",
+            "answer": "Reduce screen brightness, close background apps, disable location services when not in use, and check for battery-draining apps. If the battery is old, consider a replacement."
+        },
+        {
+            "question": "How can I remove viruses from my computer?",
+            "answer": "Install a trusted antivirus software, run a full system scan, remove suspicious programs, and keep your system updated. Avoid downloading files from untrusted sources."
+        },
+        {
+            "question": "Why is my WiFi not connecting?",
+            "answer": "Restart your router, check if airplane mode is on, forget and reconnect to the network, and make sure the correct password is entered. If issues persist, restart your device or reset the router."
+        },
+        {
+            "question": "How do I free up storage space on my phone?",
+            "answer": "Delete unused apps, clear cache, move photos/videos to cloud storage, and use an SD card if supported."
+        },
+        {
+            "question": "My laptop overheats, how can I fix it?",
+            "answer": "Clean dust from the vents, use a cooling pad, avoid blocking airflow, and check if the fan is working properly. Software updates may also optimize cooling."
+        },
+        {
+            "question": "How do I take a screenshot on Windows?",
+            "answer": "Press the 'PrtScn' button to capture the full screen or 'Windows + Shift + S' to capture a portion of the screen. The screenshot will be saved in the clipboard or Pictures/Screenshots folder."
+        },
+        {
+            "question": "How do I reset my iPhone to factory settings?",
+            "answer": "Go to Settings > General > Transfer or Reset iPhone > Erase All Content and Settings. Make sure to back up your data before resetting."
+        },
+        {
+            "question": "Why is my laptop not charging?",
+            "answer": "Check the power adapter and cable for damage, ensure the charging port is clean, try another power outlet, and test with a different charger if available. If the battery is old, it may need replacement."
+        },
+        {
+            "question": "How do I recover deleted files from my computer?",
+            "answer": "Check the Recycle Bin first. If permanently deleted, use file recovery software like Recuva or Disk Drill. Stop using the drive immediately to prevent data overwrite."
+        }
+    ]
+}

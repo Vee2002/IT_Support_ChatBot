@@ -12,12 +12,12 @@ This hybrid approach ensures:
 
 - Real-time interaction via a chat interface
 
-✨**Features**
+**Features**
 
-📂 Knowledge base Q&A: Uses curated IT Frequently Asked Questions (e.g., slow laptop, removal of viruses, overheating laptop).
+- Knowledge base Q&A: Uses curated IT Frequently Asked Questions (e.g., slow laptop, removal of viruses, overheating laptop).
 
-🧠 Hybrid reasoning: Semantic search for FAQs + LLM fallback for unmatched queries.
+- Hybrid reasoning: Semantic search for FAQs + LLM fallback for unmatched queries.
 
-⚡ FastAPI backend with WebSocket endpoints.
+- FastAPI backend with WebSocket endpoints.
 
-🖥️ Frontend-ready: Can connect to a simple chat interface.
+- Frontend-ready: Can connect to a simple chat interface.
